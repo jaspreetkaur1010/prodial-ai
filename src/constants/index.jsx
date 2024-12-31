@@ -70,32 +70,29 @@ const infintyItems = [
 // FAQ data
 const faqData = [
     {
-        heading: 'Is Synthesia a Free AI Video Generator?',
-        paragraph: `We have launched a free plan that lets you create
-            free AI videos! It includes 3 minutes of video
-            per month, 6 stock avatars, and a full range of 
-            AI voices in 140+ languages. Learn more about all 
-            available plans or generate a free AI video here.`
+        heading: 'What is Prodigal AI, and how can it help my business?',
+        paragraph: `Prodigal AI specializes in AI-powered automation and Generative AI solutions, helping 
+        businesses streamline operations, enhance productivity, and scale efficiently.`
     },
     {
-        heading: 'How secure is Synthesia?',
-        paragraph: `Synthesia ensures complete security of your data with AES-256 encryption
-            and follows strict compliance protocols. You can learn more about our security 
-            measures in our privacy policy.`
+        heading: ' What industries does Prodigal AI serve?',
+        paragraph: `We work across various industries, including retail, travel, education, sports,
+        finance, and more, offering customized AI solutions tailored to your unique needs.`
     },
     {
-        heading: 'Does AI video creation integrate with existing LMS?',
-        paragraph: `Synthesia's AI video generator is designed to integrate effortlessly with your existing
-            Learning Management System (LMS), ensuring a smooth and efficient workflow.
-            You can create AI videos and directly embed them into your courses and
-            training modules. This seamless integration streamlines the process of 
-            updating and distributing training materials. See the full list of integrations.`
+        heading: 'How does Prodigal AI ensure scalability and efficiency?',
+        paragraph: `Our expertise in Agentic AI, edge deployment, and tailored LLMs ensures 
+        your business systems are built for efficiency and seamless scaling.`
     },
     {
-        heading: 'How secure is Synthesia?',
-        paragraph: `Synthesia ensures complete security of your data with AES-256 encryption
-            and follows strict compliance protocols. You can learn more about our security 
-            measures in our privacy policy.`
+        heading: 'What are Prodigal AI’s flagship products?',
+        paragraph: `Our key offerings include Prodigal AI, RoyalVente 
+        (newsletter automation), Dhanur AI (social AI), Conch ERP, and Prodigal AI Blockchain.`
+    },
+    {
+        heading: 'How do I get started with Prodigal AI?',
+        paragraph: `Click on "Get Started Today" to begin your journey. No credit card is
+         required to explore how our solutions can transform your business.`
     },
 ];
 const footerfeatures = [

@@ -33,18 +33,18 @@ export default function HomePage() {
                 )}
             </div>
         
-            <h1 className="text-5xl md:text-7xl font-bold mt-4">Turn text to video, <br/>in <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">minutes.</span></h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mt-4">Scake Smarter <br/>with <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">Generative AI and <br/> Automation Tools.</span></h1>
             <p className="text-lg mt-4 px-4 text-gray-800">
-            Create studio-quality videos with AI avatars and voiceovers in <br/> 140+ languages. 
-            It’s as easy as making a slide deck.
+            Streamline your buisness with <br/> 
+            AI-powered automation and smarter workflows.
             </p>
 
             <button className="mt-8 bg-blue-secondary transition ease-in-out duration-200 group hover:bg-blue-tertiary text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition-colors">
-            Create free AI video
+            Get started today
             <i className="group-hover:pl-4 group-hover:pr-0 transition-all ease-in-out duration-200 fa-solid fa-arrow-right pl-2 pr-2"></i>
             </button>
         
-            <p className=" mt-4 text-white text-opacity-90 text-sm">No credit card required  &nbsp; &nbsp; | &nbsp;  &nbsp;  Rated 4.7/5 on G2</p>
+            <p className=" mt-4 text-white text-opacity-90 text-sm">No credit card required  &nbsp; | &nbsp;  Rated 4.9/5 by global leaders</p>
         </div>
 
         <div className="relative pt-12">
