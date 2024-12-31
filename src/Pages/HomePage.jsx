@@ -4,11 +4,14 @@ import VideoCard from "../Components/HomePageComponents/VideoCard";
 import WorkSection from "../Components/HomePageComponents/WorkSection";
 import FaqSection from "../Components/HomePageComponents/FaqSection";
 import Footer from "../Components/HomePageComponents/Footer";
+import FooterCTAsection from "../Components/HomePageComponents/FooterCTAsection";
+import BookDemo from "../Components/HomePageComponents/BookDemo";
 export default function HomePage() {
   const [showPopup, setShowPopup] = useState(false);
 
 
-  return (<>
+  return (
+  <>
     <div className="absolute z-50"><Header/></div>
 
     <div className="pt-36 bg-gradient-to-b from-white via-blue-bg-light to-white py-12">
@@ -33,7 +36,7 @@ export default function HomePage() {
                 )}
             </div>
         
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mt-4">Scake Smarter <br/>with <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">Generative AI and <br/> Automation Tools.</span></h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mt-4">Scale Smarter <br/>with <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">Generative AI and <br/> Automation Tools.</span></h1>
             <p className="text-lg mt-4 px-4 text-gray-800">
             Streamline your buisness with <br/> 
             AI-powered automation and smarter workflows.
@@ -120,6 +123,8 @@ export default function HomePage() {
                 <FaqSection/>
         </div>
     </div>
+    <FooterCTAsection/>
+    <BookDemo/>
 
     <Footer/>
     </>
