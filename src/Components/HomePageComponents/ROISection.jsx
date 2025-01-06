@@ -10,7 +10,7 @@ function ROISection() {
                 You Don’t Have to Choose Between Cost, Time, and Innovation
             </h2>
             <div className='flex flex-col lg:flex-row items-center justify-center space-y-4 lg:space-x-4 xl:space-x-6 lg:space-y-0'>
-                <section className="group lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
+                <section className="group p-4 lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
                     <h3 className='font-semibold text-xl pb-6'>LOAN CALL ANALYSIS</h3>
                     <div className='text-7xl text-blue-secondary flex items-center justify-center'>
                         <i className="fa-solid fa-arrow-down text-5xl"></i>
