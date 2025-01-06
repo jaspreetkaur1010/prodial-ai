@@ -6,6 +6,8 @@ import FaqSection from "../Components/HomePageComponents/FaqSection";
 import Footer from "../Components/HomePageComponents/Footer";
 import FooterCTAsection from "../Components/HomePageComponents/FooterCTAsection";
 import BookDemo from "../Components/HomePageComponents/BookDemo";
+import EmpoweringSection from "../Components/HomePageComponents/EmpoweringSection";
+import ROISection from "../Components/HomePageComponents/ROISection";
 export default function HomePage() {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -117,15 +119,16 @@ export default function HomePage() {
             <div className=" inline-block font-semibold text-xs text-blue-primary bg-white cursor-pointer border  px-2 py-2 rounded-lg shadow-sm">
                 FAQS
             </div>
-            <h3 className="text-4xl text-center lg:text-left md:text-5xl font-semibold">AI video <br/> generation FAQs</h3>
+            <h3 className="text-4xl lg:text-left md:text-5xl font-semibold">AI video <br/> generation FAQs</h3>
         </div>
-        <div className="lg:w-1/2 mt-12 lg:ml-4 lg:mt-0">
+        <div className="lg:w-1/2 mt-12 sm:px-12 lg:ml-4 lg:mt-0">
                 <FaqSection/>
         </div>
     </div>
     <FooterCTAsection/>
     <BookDemo/>
-
+    <EmpoweringSection/>
+    <ROISection/>
     <Footer/>
     </>
   );

@@ -5,22 +5,23 @@ import whiteLogo from "../../assets/logos/white-transparent-horizontal.png";
 function Footer() {
   return (
     <footer className="bg-black text-white py-10 px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-20 md:gap-10 ">
+      <div className="max-w-7xl mx-auto gap-20 md:gap-10 md:flex">
+      {/* grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 */}
+       
         {/* Left Section */}
-        <div className="lg:col-span-1 col-span-full">
-          <img  className="h-36 lg:h-24 mx-auto" src={whiteLogo} alt="prodigalAI"/>  
-          <p className="mb-4 text-sm text-justify">
-            Synthesia is the #1 AI Video Communications Platform. Our{' '}
+        <div className="md:w-1/2 lg:w-1/4 mr-16">
+          <img  className="h-36 lg:h-24" src={whiteLogo} alt="prodigalAI"/>  
+          <p className="mb-4 text-sm text-left">
+            At Prodigal AI, we specialize in transforming businesses with cutting-edge{' '}
             <a href="#" className="text-blue font-bold">
-              AI Video Generator
+              AI solutions
             </a>{' '}
-            enables everyone to create professional videos without mics,
-            cameras, actors or studios.
+            blending automation, generative intelligence,
+            and decentralized systems to drive growth,
+            innovation, and efficiency across industries.
           </p>
-          <p className="mb-4 text-sm text-justify">
-            Using AI, we’re radically changing the process of video content
-            creation, making it scalable and affordable while maintaining high
-            quality.
+          <p className="mb-4 text-sm text-left">
+            Empowering businesses with AI innovation and automation.
           </p>
 
           {/* <div className="flex space-x-4 mt-4">
@@ -44,7 +45,7 @@ function Footer() {
         </div>
 
         {/* Middle Sections */}
-        <div className="col-span-1">
+        <div className="">
             <h3 className="text-lg font-semibold text-blue mb-2">Features</h3>
             <ul className="space-y-1">
                 {footerfeatures.map((feature, index) => (
@@ -57,7 +58,7 @@ function Footer() {
             </ul>
         </div>
 
-        <div className="col-span-1">
+        <div className="">
             <h3 className="text-lg font-semibold text-blue mb-2">Use Cases</h3>
             <ul className="space-y-1">
                 {footeruseCases.map((feature, index) => (
@@ -70,7 +71,7 @@ function Footer() {
             </ul>
         </div>
 
-        <div className="col-span-1">
+        <div className="">
             <h3 className="text-lg font-semibold text-blue mb-2">Resources</h3>
             <ul className="space-y-1">
                 {footerresources.map((feature, index) => (
@@ -84,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Right Section */}
-        <div className="col-span-1">
+        <div className="">
           <h3 className="text-lg font-semibold text-blue mb-2">Company</h3>
           <ul className="space-y-1">
                 {footercompany.map((feature, index) => (

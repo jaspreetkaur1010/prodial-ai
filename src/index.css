@@ -64,6 +64,12 @@ body {
   font-size: 0.75rem;
   margin-right: 1rem; 
 }
+.text-gradient {
+  background: linear-gradient(to right, #8395cb,#1e3a8a , #1e3a8a);
+  color: transparent;
+  background-clip: text;
+  transition: color ease-in-out 100ms;
+}
 
 @keyframes fill-bg {
   0% {
