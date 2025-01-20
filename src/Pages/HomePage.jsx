@@ -8,6 +8,8 @@ import FooterCTAsection from "../Components/HomePageComponents/FooterCTAsection"
 import BookDemo from "../Components/HomePageComponents/BookDemo";
 import EmpoweringSection from "../Components/HomePageComponents/EmpoweringSection";
 import ROISection from "../Components/HomePageComponents/ROISection";
+import Integrations from "../Components/HomePageComponents/Integrations";
+import Enterprise from "../Components/HomePageComponents/Enterprise";
 export default function HomePage() {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -129,6 +131,8 @@ export default function HomePage() {
     <BookDemo/>
     <EmpoweringSection/>
     <ROISection/>
+    <Integrations/>
+    <Enterprise/>
     <Footer/>
     </>
   );
