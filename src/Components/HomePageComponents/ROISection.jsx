@@ -28,7 +28,7 @@ function ROISection() {
                     </button>
                 </section>
                 
-                <section className="group lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
+                <section className="group p-4 lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
                     <h3 className='font-semibold text-xl pb-6'>RETAIL SOLUTIONS</h3>
                     <div className='text-7xl text-blue-secondary flex items-center justify-center'>
                         <i className="fa-solid fa-arrow-up text-5xl"></i>
@@ -46,7 +46,7 @@ function ROISection() {
                     </button>
                 </section>
                 
-                <section className="group lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
+                <section className="group p-4 lg:w-1/3 max-w-[640px] lg:max-w-96 mx-12 lg:mx-0 text-gray-800 bg-blue-opaque bg-opacity-40 rounded-lg py-6 hover:shadow-md shadow-gray-100 border border-blue-opaque transition-all transition-ease-in duration-400">
                     <h3 className='font-semibold text-xl pb-6'>SOCIAL MEDIA ENGAGEMENT</h3>
                     <div className='text-7xl text-blue-secondary flex items-center justify-center'>
                         <i className="fa-solid fa-arrow-up text-5xl"></i>

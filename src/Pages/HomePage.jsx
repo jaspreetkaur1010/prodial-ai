@@ -128,7 +128,7 @@ export default function HomePage() {
         </div>
     </div>
     <FooterCTAsection/>
-    <BookDemo/>
+    {/* <BookDemo/> */}
     <EmpoweringSection/>
     <ROISection/>
     <Integrations/>
