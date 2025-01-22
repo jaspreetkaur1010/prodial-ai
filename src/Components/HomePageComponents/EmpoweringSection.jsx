@@ -2,9 +2,9 @@ import React from 'react';
 
 function EmpoweringSection() {
     return (
-        <div className='md:flex py-12 items-center px-12 lg:px-24 md:space-x-12'>
+        <div className='md:flex items-center md:space-x-12 py-12 md:py-16 px-6 sm:px-12 xl:px-24'>
             <div className='md:w-1/2'>
-                <h2 className='text-4xl text-4xl lg:text-5xl font-semibold'>
+                <h2 className='text-3xl md:text-4xl lg:text-5xl font-semibold'>
                     <span className='text-transparent bg-gradient-to-br to-blue-primary via-blue-primary from-white bg-clip-text'> 
                          Empowering
                     </span> {' '}

@@ -40,7 +40,7 @@ export default function HomePage() {
                 )}
             </div>
         
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mt-4">Scale Smarter <br/>with <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">Generative AI and <br/> Automation Tools.</span></h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl px-1 font-bold mt-4">Scale Smarter <br/>with <span className="bg-gradient-to-r from-blue-light to-blue-tertiary text-transparent bg-clip-text">Generative AI and <br/> Automation Tools.</span></h1>
             <p className="text-lg mt-4 px-4 text-gray-800">
             Streamline your buisness with<br/> 
             AI-powered automation and smarter workflows.
@@ -116,14 +116,14 @@ export default function HomePage() {
     <div className="w-full">    <VideoCard/></div>
 
     <WorkSection/>
-    <div className="lg:flex px-4 py-6 lg:px-24 lg:py-24">
-        <div className=" p-8 space-y-4 lg:w-1/2">
+    <div className="lg:flex py-12 md:py-16 px-6 sm:px-12 xl:px-24">
+        <div className="space-y-4 lg:w-1/2">
             <div className=" inline-block font-semibold text-xs text-blue-primary bg-white cursor-pointer border  px-2 py-2 rounded-lg shadow-sm">
                 FAQS
             </div>
-            <h3 className="text-4xl lg:text-left md:text-5xl font-semibold">AI video <br/> generation FAQs</h3>
+            <h3 className="text-3xl md:text-4xl lg:text-5xl lg:text-left font-semibold">AI video <br/> generation FAQs</h3>
         </div>
-        <div className="lg:w-1/2 mt-12 sm:px-12 lg:ml-4 lg:mt-0">
+        <div className="lg:w-1/2 mt-12 lg:ml-4 lg:mt-0">
                 <FaqSection/>
         </div>
     </div>

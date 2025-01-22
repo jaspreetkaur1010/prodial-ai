@@ -28,13 +28,13 @@ const VideoCard = () => {
 
   return (
     <>
-        <div className=" p-8 lg:p-12 pt-24 sm:pt-28 lg:pt-28 lg:w-3/4 mx-auto">
+        <div className="pt-24 sm:pt-28 lg:pt-28 lg:w-3/4 mx-auto py-12 px-6 md:px-12 xl:px-24">
             <div className="inline-block font-semibold text-xs text-blue-primary bg-white cursor-pointer border px-2 py-2 rounded-lg shadow-sm">
                 USE CASES
             </div>
 
             <div className="sm:flex space-y-4 sm:space-y-0 justify-between items-end pt-8">
-                <p className="sm:w-3/4 text-4xl md:text-5xl font-semibold">Used by 50,000+ teams who create videos at scale</p>
+                <p className="sm:w-3/4 text-3xl md:text-4xl lg:text-5xl font-semibold">Used by 50,000+ teams who create videos at scale</p>
                 <div className="space-x-4">
                     <div className="inline-block px-3 py-2 rounded-full border border-blue-opaque border-2 hover:bg-blue-opaque transition-all duration-100 ease-in-out" onClick={() => handleScroll('left')} ><i className="fa-solid fa-arrow-left"></i></div>
                     <div className="inline-block px-3 py-2 rounded-full border border-blue-opaque border-2 hover:bg-blue-opaque transition-all duration-100 ease-in-out" onClick={() => handleScroll('right')}><i className="fa-solid fa-arrow-right"></i></div>

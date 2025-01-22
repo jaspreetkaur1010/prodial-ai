@@ -29,14 +29,14 @@ function Enterprise() {
     ];
     
     return (
-        <div className='lg:items-center text-center md:text-left px-6 py-6 lg:space-y-0 md:px-12 xl:px-36 md:py-24'>
+        <div className='lg:items-center text-center md:text-left px-6 py-6 lg:space-y-0 md:px-12'>
             <div className='lg:text-left'>
                 <div className=" inline-block font-semibold text-xs text-blue-primary bg-white cursor-pointer border px-2 py-2 rounded-lg shadow-sm">
                     ENTERPRISE READY
                 </div>
                 <div className='lg:space-x-2 xl:space-x-6 lg:flex justify-center'>
                     <div>
-                        <h2 className='py-6 text-center md:text-left text-4xl lg:text-5xl font-semibold xl:w-3/4'>Built on AI Innovation with Ethics and Security at the Core</h2>
+                        <h2 className='py-6 text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-semibold xl:w-3/4'>Built on AI Innovation with Ethics and Security at the Core</h2>
                     </div>
                     <div className=''>
                         <p className='m-0 pt-4 text-md md:text-md text-center md:text-left'>
@@ -53,7 +53,7 @@ function Enterprise() {
 
             <div className="pt-12 grid md:grid-cols-2 xl:grid-cols-4 gap-4">
                 {features.map((feature, index) => (
-                    <div key={index} className="bg-blue-opaque bg-opacity-40 space-x-5 flex justify-center px-4 py-6 rounded-lg">
+                    <div key={index} className="bg-blue-opaque bg-opacity-40 space-x-5 flex px-4 py-6 rounded-lg">
                         <div className={`px-2 mt-1 h-8 flex items-center justify-center rounded-lg bg-${feature.color}`}>
                             <i className={`${feature.icon} text-white`}></i>
                         </div>

@@ -1,14 +1,14 @@
 import React from 'react';
 function Integrations() {
     return (
-        <div className='lg:items-center px-12 py-6 space-y-8 lg:space-y-0 lg:space-x-8 lg:px-24 lg:py-24'>
+        <div className='lg:items-center py-6 space-y-8 lg:space-y-0 lg:space-x-8 py-12 lg:py-16 text-center px-6 md:px-12 xl:px-24'>
             <div className='lg:text-left'>
                 <div className=" inline-block font-semibold text-xs text-blue-primary bg-white cursor-pointer border px-2 py-2 rounded-lg shadow-sm">
                     INTEGRATIONS
                 </div>
                 <div className='lg:space-x-2 xl:space-x-6 lg:flex justify-center'>
                     <div>
-                        <h2 className='py-6 text-center md:text-left text-4xl lg:text-5xl font-semibold xl:w-3/4'>Seamlessly Connect AI with Your Favorite Tools</h2>
+                        <h2 className='py-6 text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-semibold xl:w-3/4'>Seamlessly Connect AI with Your Favorite Tools</h2>
                     </div>
                     <div className=''>
                         <p className='m-0 pt-4 text-md md:text-md text-center md:text-left'>
