@@ -2,7 +2,7 @@ import React from 'react';
 
 function BookDemo() {
   return (
-    <div className="xl:flex px-12 py-6 lg:px-24 lg:py-24 bg-gradient-to-br from-blue-50 to-indigo-50">
+    <div className="xl:flex px-12 pt-36 lg:px-24 lg:pt-48 lg:pb-24 bg-gradient-to-br from-blue-50 to-indigo-50">
       {/* Left Section */}
       <div className="xl:w-1/2 lg:text-left space-y-6">
         <h2 className="text-4xl lg:text-5xl font-semibold text-gray-900">

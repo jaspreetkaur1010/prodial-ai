@@ -71,7 +71,7 @@ export default function Header() {
 
         {/* Main Header */}
         <div
-          className="flex bg-white px-4 sm:px-10 justify-between items-center"
+          className="flex w-full bg-white px-4 sm:px-10 justify-between items-center"
           style={{
             transform:
               isHidden && !isTicked
@@ -84,10 +84,19 @@ export default function Header() {
         >
           {/* Logo and Navigation Links */}
           <div className="space-x-12 hidden lg:flex align-left">
+            {/* <Link to="/">
+              <div>
+                hello
+              </div>
+              <img className="h-16 lg:h-20" src={Logo} alt="prodigalAI" />
+            </Link> */}
+            <div className="flex space-x-4 xl:space-x-12 text-sm items-center">
             <Link to="/">
+              {/* <div>
+                hello
+              </div> */}
               <img className="h-16 lg:h-20" src={Logo} alt="prodigalAI" />
             </Link>
-            <div className="flex space-x-12 text-sm items-center">
               {homeHeaderLinks.map((link, index) => (
                 <Link to={link.path} key={index}>
                   <div
@@ -116,16 +125,26 @@ export default function Header() {
                 </Link>
               ))}
             </div>
+            
           </div>
 
           {/* Hamburger Menu and Login */}
-          <div className="flex items-center space-x-8">
-            <Link to="/login">
+          <div className="flex min-w-full lg:min-w-0 items-center justify-between lg:justify-end space-x-8">
+            <Link to="/" className="lg:hidden">
+              <img className="h-16 lg:h-20" src={Logo} alt="prodigalAI" />
+            </Link>
+            
+            <Link to="/login" className="hidden lg:flex">
               <h3 className="text-sm text-gray-600 hover:text-blue-primary">
                 Login
               </h3>
             </Link>
-            <button className="bg-blue-primary hidden sm:flex transition ease-in-out duration-200 hover:bg-blue-secondary text-white text-sm font-semibold px-4 py-2 rounded-md">
+            <Link to="/demo" className="hidden lg:flex">
+              <h3 className="text-sm text-gray-600 hover:text-blue-primary">
+                Book demo
+              </h3>
+            </Link>
+            <button className="bg-blue-primary hidden lg:flex transition ease-in-out duration-200 hover:bg-blue-secondary text-white text-sm font-semibold px-4 py-2 rounded-md">
               Get Started
             </button>
 

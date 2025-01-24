@@ -15,7 +15,7 @@ function Integrations() {
                             Enhance productivity and streamline workflows by integrating Prodigal AI solutions with your CRM, ERP, content platforms, LMS, and other
                                  business tools. Experience smooth deployments and real-time insights across all your critical systems.
                         </p>
-                        <button className="mt-8 border transition ease-in-out duration-200 group hover:bg-blue-secondary font-medium text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 transition-colors">
+                        <button className="mt-8 border transition ease-in-out duration-200 group font-medium text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 transition-colors">
                             Explore all integrations
                         <i className="group-hover:pl-4 group-hover:pr-0 transition-all ease-in-out duration-200 fa-solid fa-arrow-right pl-2 pr-2"></i>
                         </button>

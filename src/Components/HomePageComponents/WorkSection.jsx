@@ -42,8 +42,8 @@ const WorkSection = () => {
                             }`}
                             onClick={() => toggleTab(1)}
                         >
-                            <button className="z-50 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">1</button>
-                            <div className="z-50 flex flex-col justify-center transition-all duration-300">
+                            <button className="z-30 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">1</button>
+                            <div className="z-30 flex flex-col justify-center transition-all duration-300">
                                 <h2 className="text-xl text-white font-semibold">Create your script</h2>
                                 <p className="text-xs text-white">Generate it from a link, doc, or even just an idea with the help of AI.</p>
                             </div>
@@ -55,8 +55,8 @@ const WorkSection = () => {
                             }`}
                             onClick={() => toggleTab(2)}
                         >
-                            <button className="z-50 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">2</button>
-                            <div className="z-50 flex flex-col justify-center transition-all duration-300">
+                            <button className="z-30 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">2</button>
+                            <div className="z-30 flex flex-col justify-center transition-all duration-300">
                                 <h2 className="text-xl text-white font-semibold">Collaborate</h2>
                                 <p className="text-xs text-white">Generate it from a link, doc, or even just an idea with the help of AI.</p>
                             </div>
@@ -68,8 +68,8 @@ const WorkSection = () => {
                             }`}
                             onClick={() => toggleTab(3)}
                         >
-                            <button className="z-50 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">3</button>
-                            <div className="z-50 flex flex-col justify-center transition-all duration-300">
+                            <button className="z-30 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">3</button>
+                            <div className="z-30 flex flex-col justify-center transition-all duration-300">
                                 <h2 className="text-xl text-white font-semibold">Edit your video</h2>
                                 <p className="text-xs text-white">Refine your video easily before sharing.</p>
                             </div>
@@ -81,8 +81,8 @@ const WorkSection = () => {
                             }`}
                             onClick={() => toggleTab(4)}
                         >
-                            <button className="z-50 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">4</button>
-                            <div className="z-50 flex flex-col justify-center transition-all duration-300">
+                            <button className="z-30 h-6 mt-1 px-2 rounded-lg text-white bg-blue-primary">4</button>
+                            <div className="z-30 flex flex-col justify-center transition-all duration-300">
                                 <h2 className="text-xl text-white font-semibold">Share and export</h2>
                                 <p className="text-xs text-white">Easily export your video in various formats.</p>
                             </div>

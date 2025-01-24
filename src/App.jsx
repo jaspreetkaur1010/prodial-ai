@@ -7,6 +7,7 @@ import {
 import HomePage from './Pages/HomePage.jsx';
 import Feature1 from './Pages/Feature1.jsx';
 import LoginPage from './Pages/LoginPage.jsx';
+import DemoPage from './Pages/DemoPage.jsx';
 
 function App() {
 
@@ -27,6 +28,12 @@ function App() {
       path:'/login',
       element:<div>
         <LoginPage/>
+      </div>,
+    },
+    {
+      path:'/demo',
+      element:<div>
+        <DemoPage/>
       </div>,
     },
   ]);

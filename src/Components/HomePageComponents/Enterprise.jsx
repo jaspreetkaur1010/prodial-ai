@@ -43,7 +43,7 @@ function Enterprise() {
                             <span className='font-medium'>At Prodigal AI, we prioritize responsible AI</span> by embedding robust 
                             security and ethical frameworks in all our solutions, ensuring trust and safety for businesses and users alike.
                         </p>
-                        <button className="mt-8 border transition ease-in-out duration-200 group hover:bg-blue-secondary font-medium text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 transition-colors">
+                        <button className="mt-8 border transition ease-in-out duration-200 group font-medium text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-blue-500 transition-colors">
                             Explore all integrations
                         <i className="group-hover:pl-4 group-hover:pr-0 transition-all ease-in-out duration-200 fa-solid fa-arrow-right pl-2 pr-2"></i>
                         </button>
